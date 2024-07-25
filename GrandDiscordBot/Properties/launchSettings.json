@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "GrandDiscordBot": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "id": "1262738264121675823"
+      }
+    }
+  }
+}
