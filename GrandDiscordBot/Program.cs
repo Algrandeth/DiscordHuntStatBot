@@ -27,7 +27,7 @@ namespace GrandDiscordBot
         {
             client.Log += Log;
 
-            await client.LoginAsync(TokenType.Bot, "MTI2Mjc1MDkzNjQ1NjIzNzA1Ng.GUGOsh.C32C5oNQi1x4hnLWDKpovkx7ePkBAuhsIc-U6g");
+            await client.LoginAsync(TokenType.Bot, Environment.GetEnvironmentVariable("guildID"));
 
             await LogMessage("Started");
             await client.StartAsync();
